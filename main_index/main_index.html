@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트</title>
+    <script src="https://kit.fontawesome.com/bfb0334003.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main_index.css">
+</head>
+
+<body>
+    <div class="full">
+        <header>
+            <div class="header_wrap header">
+                <div class="top-header">
+                    <!-- <div><img class="top_logo" src="./image/main-logo.png" alt=""></div> -->
+                    <div class="topcoupon">
+                        <a href="#" class="freecoupon">지금 회원 가입 시, 첫 주문 배송비 무료쿠폰 증정!</a>
+                    </div>
+                    <div class="loginMenu">
+                        <div class="search-box">
+                            <input type="text" class="search-txt" name="" placeholder="찾으시는 제품을 입력해주세요">
+                            <a class="search-btn" href="#">
+                                <i></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============메인로고, 메뉴카테고리========================== -->
+                <!-- <div class="header">
+                            <div class="mainlogo">
+                               
+                            </div>
+                        </div> -->
+
+                <!-- ===========상단 메뉴============ -->
+
+                <nav class="header_nav">
+                    <div class="navbar">
+                        <a href="#home"><img class="nav_logo" src="./image/logo_OG_com.png" alt=""></a>
+
+
+                        <!-- 드롭다운1 -->
+                        <div class="dropdown">
+                            <!-- 드롭다운 버튼 -->
+                            <!-- 햄버거 버튼 -->
+                            <button class="dropbtn">
+                                <a class="category" href="#">
+                                    <input type="checkbox" id="check_box">
+                                    <label class="burgerx" for="check_box">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </label>전체 카테고리
+                                </a>
+                            </button>
+                            <!-- 드롭다운 내용물 -->
+                            <div class="dropdown-content">
+                                <!-- 드롭다운 내용물 : 제목 -->
+                                <!-- <div class="header">
+                                            <h2>메가 메뉴</h2>
+                                        </div> -->
+                                <!-- 드롭다운 내용물 : 카테고리 모음 -->
+                                <div class="row">
+                                    <div class="category_top">
+                                        <span>전체메뉴</span>
+                                    </div>
+
+                                    <div class="menu_page">
+                                        <ul class="header_menu">
+                                            <li><a href="#">PC주요제품</a>
+                                                <div class="mega_menu">
+                                                    <div class="col">
+                                                        <ul>
+                                                            <li class="relative"><a href="#">CPU</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">인텔</a></li>
+                                                                            <li><a href="#">AMD</a></li>
+                                                                            <li><a href="#">기타</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+
+                                                            <li><a href="#">메인보드</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">인텔 CPU용</a></li>
+                                                                            <li><a href="#">AMD CPU용</a></li>
+                                                                            <li><a href="#">리퍼비시 메인보드</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">RAM</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">DDR3</a></li>
+                                                                            <li><a href="#">DDR2</a></li>
+                                                                            <li><a href="#">DDR</a></li>
+                                                                            <li><a href="#">SDR</a></li>
+                                                                            <li><a href="#">기타</a></li>
+                                                                            <li><a href="#">DDR4</a></li>
+                                                                            <li><a href="#">DDR5</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">VGA</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">AMD(ATi) 계열</a></li>
+                                                                            <li><a href="#">NVIDIA 계열</a></li>
+                                                                            <li><a href="#">Matrox 계열</a></li>
+                                                                            <li><a href="#">기타 계열</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">SSD</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">내장형 SSD</a></li>
+                                                                            <li><a href="#">외장형 SSD</a></li>
+                                                                            <li><a href="#">SSD 주변기기</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">HDD</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">PC용 HDD</a></li>
+                                                                            <li><a href="#">노트북용 HDD</a></li>
+                                                                            <li><a href="#">서버용 HDD</a></li>
+                                                                            <li><a href="#">내장형 카드 리더기</a></li>
+                                                                            <li><a href="#">FDD</a></li>
+                                                                            <li><a href="#">리퍼비시 HDD</a></li>
+                                                                            <li><a href="#">HDD 복사기</a></li>
+                                                                            <li><a href="#">HDD 주변기기</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">케이스</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">일반 PC케이스</a></li>
+                                                                            <li><a href="#">HTPC케이스</a></li>
+                                                                            <li><a href="#">튜닝 케이스</a></li>
+                                                                            <li><a href="#">랙마운트</a></li>
+                                                                            <li><a href="#">케비넷</a></li>
+                                                                            <li><a href="#">미니PC용(미니ITX)</a></li>
+                                                                            <li><a href="#">전용 액세서리</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">파워</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">ATX 파워</a></li>
+                                                                            <li><a href="#">Micro-ATX 파워</a></li>
+                                                                            <li><a href="#">AT 파워</a></li>
+                                                                            <li><a href="#">TFX 파워</a></li>
+                                                                            <li><a href="#">서버용 파워</a></li>
+                                                                            <li><a href="#">UPS</a></li>
+                                                                            <li><a href="#">DC to DC</a></li>
+                                                                            <li><a href="#">인버터</a></li>
+                                                                            <li><a href="#">중고 파워</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li><a href="#">주변기기</a>
+                                                <div class="mega_menu">
+                                                    <div class="col">
+                                                        <ul>
+                                                            <li class="relative"><a href="#">컨트롤러</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">컨트롤러</a></li>
+                                                                            <li><a href="#">KVM 스위치</a></li>
+                                                                            <li><a href="#">USB 허브</a></li>
+                                                                            <li><a href="#">USB 허브</a></li>
+                                                                            <li><a href="#">공유기/분배기/선택기</a></li>
+                                                                            <li><a href="#">리피터</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+
+                                                            <li><a href="#">쿨러/튜닝</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">CPU 쿨러</a></li>
+                                                                            <li><a href="#">VGA 쿨러</a></li>
+                                                                            <li><a href="#">시스템 쿨러</a></li>
+                                                                            <li><a href="#">HDD 쿨러</a></li>
+                                                                            <li><a href="#">RAM 쿨러</a></li>
+                                                                            <li><a href="#">튜닝용품</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">케이블</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">데이터 케이블</a></li>
+                                                                            <li><a href="#">HDMI 케이블</a></li>
+                                                                            <li><a href="#">비디오 케이블</a></li>
+                                                                            <li><a href="#">오디오 케이블</a></li>
+                                                                            <li><a href="#">LAN 케이블</a></li>
+                                                                            <li><a href="#">전원 케이블</a></li>
+                                                                            <li><a href="#">기타 케이블</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">VGA</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">AMD(ATi) 계열</a></li>
+                                                                            <li><a href="#">NVIDIA 계열</a></li>
+                                                                            <li><a href="#">Matrox 계열</a></li>
+                                                                            <li><a href="#">기타 계열</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="#">USB</a>
+                                                                <div class="mega_inner_menu">
+                                                                    <div>
+                                                                        <ul>
+                                                                            <li><a href="#">USB 메모리</a></li>
+                                                                            <li><a href="#">USB 용품</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li><a href="#">멀티미디어/네트워크</a>
+
+                                            </li>
+
+                                            <li><a href="#">소모품</a>
+
+                                            </li>
+
+                                            <li><a href="#">이어폰/헤드셋</a>
+
+                                            </li>
+
+                                            <li><a href="#">사무기기</a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a href="#">셀프견적</a>
+                        </div>
+
+                        <div>
+                            <a href="#">견적상담</a>
+                        </div>
+
+                        <div>
+                            <a href="#">추천PC</a>
+                        </div>
+
+                        <div>
+                            <a href="#">
+                                <span class="color_red">월간</span>PC
+                            </a>
+                        </div>
+
+
+                        <div>
+                            <a href="#">커뮤니티</a>
+                        </div>
+
+                        <div class="loginMenu">
+                            <ul>
+                                <li>
+                                    <a href="#">로그인 </a>
+                                </li>
+                                <li>
+                                    <a href="#">장바구니</a>
+                                </li>
+                                <li>
+                                    <a href="#">회원가입</a>
+                                </li>
+                                <li>
+                                    <a href="#">장바구니</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!--=================슬라이드========================= -->
+        <div class="section">
+            <input type="radio" name="slide" id="slide01" checked>
+            <input type="radio" name="slide" id="slide02">
+            <input type="radio" name="slide" id="slide03">
+            <div class="slidewrap">
+                <ul class="slidelist">
+                    <li>
+                        <a>
+                            <label for="slide03" class="left"></label>
+                            <img src="./image/mainslide-img_img4.jpg" class="imgslide" alt="">
+                            <label for="slide02" class="right"></label>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <label for="slide01" class="left"></label>
+                            <img src="./image/mainslide-img2.jpg" class="imgslide" alt="">
+                            <label for="slide03" class="right"></label>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <label for="slide02" class="left"></label>
+                            <img src="./image/mainslide-img3.png" class="imgslide" alt="">
+                            <label for="slide01" class="right"></label>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ===========================상품 카테고리========== -->
+
+        <!-- =======================중간 gif=============== -->
+        <div class="gifbox">
+            <div class="imgbox">
+                <div><img src="../image/mid.gif" class="midgif" alt=""></div>
+                <div class="reviewbox">
+                    <img src="../image/midgif2.gif" class="midgif2" alt="">
+                    <!-- =======구매후기============ -->
+                    <div class="review">
+                        <div class="review-txt1">
+                            <a href="#">구매후기</a>
+                            <a href="#">더보기</a>
+                        </div>
+                        <table class="table1">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <div class="reviewimg1"></div>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <p>[구매후기]</p>
+                                        <a href="#">
+                                            <div>잘 받았습니다^^</div>
+                                            <div>
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                            </div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <div class="reviewimg2"></div>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <p>[구매후기]</p>
+                                        <a href="#">
+                                            <div>아직까진 좋아요~</div>
+                                            <div>
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/whitestar.png" alt="흰별">
+                                                <img class="redstar" src="./image/whitestar.png" alt="흰별">
+                                            </div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <div class="reviewimg3"></div>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <p>[구매후기]</p>
+                                        <a href="#">
+                                            <div>최악이네요..</div>
+                                            <div>
+                                                <img class="redstar" src="./image/star.png" alt="붉은별">
+                                                <img class="redstar" src="./image/whitestar.png" alt="흰별">
+                                                <img class="redstar" src="./image/whitestar.png" alt="흰별">
+                                                <img class="redstar" src="./image/whitestar.png" alt="흰별">
+                                                <img class="redstar" src="./image/whitestar.png" alt="흰별">
+                                            </div>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- ========견적문의=============== -->
+                    <div class="review2">
+                        <div class="review-txt2">
+                            <a href="#">견적문의</a>
+                            <a href="#">더보기</a>
+                        </div>
+                        <div class="reviewdown">
+                            <a href="#">
+                                <div>조립 주문시 택배비는 무료</div>
+                                <div><span>100% 정품 </span>및 새제품 사용! 구매전<span> 호환성 검사</span> 필수!</div>
+                            </a>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">이 상태에서 케이스를 못고르겠어요</a></div>
+                            <div>hs***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">인텔 13세대 견적 문의드립니다.</a></div>
+                            <div>er***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">견적 부탁드립니다.</a></div>
+                            <div><span>ny***</span></div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">최신 사양으로 견적부탁드립니다.</a></div>
+                            <div>sh***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">70만원 내외로 견적부탁드려요~</a></div>
+                            <div>kj***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">간단한 사무용으로 견적알려주세요!</a></div>
+                            <div>jh***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">배틀그라운드를 하고싶은데..</a></div>
+                            <div>ll***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">이 정도 사양으로는 어느정도일까요?</a></div>
+                            <div>cw***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">영상, 사진 편집용으로 견적 부탁드립니다.</a></div>
+                            <div>km***</div>
+                            <div>답변완료</div>
+                        </div>
+                        <div class="Inquiry">
+                            <div>12-25 15:02</div>
+                            <div><a href="#">견적 문의는 무료인가요???</a></div>
+                            <div>lh***</div>
+                            <div>답변완료</div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="gif_review">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- =========중간 사양별 추천=============================== -->
+        <div class="computer">
+            <div class="gm">
+                <div><span class="games">게임별 추천 상품</span></div>
+                <div class="gameName">
+                    <span><a href="#">리그오브레전드</a></span>
+                    <span>|</span>
+                    <span><a href="#">로스트아크</a></span>
+                    <span>|</span>
+                    <span><a href="#">발로란트</a></span>
+                    <span>|</span>
+                    <span><a href="#">배틀그라운드</a></span>
+                    <span>|</span>
+                    <span><a href="#">피파온라인</a></span>
+                </div>
+            </div>
+            <div>
+                <div class="spec">
+                    <div>
+                        <div class="case case1">
+                            <a href="#" class="computerSpec">
+                                <img src="../image/computer_img1.png" class="comPic" alt="추천 사양1">
+                                <span class="spectext spectext1">THE.FIXER-특가 제품-BEST-1</span>
+                                <span class="spectext spectext2">AMD Ryzen PRO4 4600G</span>
+                                <span class="spectext spectext3">330,000원</span>
+                            </a>
+                        </div>
+                        <div class="case case2">
+                            <a href="#" class="computerSpec">
+                                <img src="./image/computer_img2.png" class="comPic" alt="추천 사양1">
+                                <span class="spectext spectext1">AMD 라이젠5 4세대 5600G 탑재PC</span>
+                                <span class="spectext spectext2">AMD 라이젠5 4세대 5600G</span>
+                                <span class="spectext spectext3">378,000원</span>
+                            </a>
+                        </div>
+                        <div class="case case3">
+                            <a href="#" class="computerSpec">
+                                <img src="./image/computer_img3.png" class="comPic" alt="추천 사양1">
+                                <span class="spectext spectext1">THE.FIXER-특가 제품-BEST-2</span>
+                                <span class="spectext spectext2">i3 12100F + RX6500XT</span>
+                                <span class="spectext spectext3">634,800원</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="test">
+                        test
+                    </div> -->
+
+                </div>
+            </div>
+            <!-- ===============중간 모니터 광고======================== -->
+            <div>
+                <a href="#"><img src="../image/mnt.png" class="mntimg" alt="모니터광고"></a>
+            </div>
+            <!-- ======================================================== -->
+            <div class="computer2">
+                <div class="gm2">
+                    <div><span class="games">용도별 추천 상품</span></div>
+                    <div class="officeName">
+                        <span><a href="#">사무용</a></span>
+                        <span>|</span>
+                        <span><a href="#">디자인</a></span>
+                        <span>|</span>
+                        <span><a href="#">영상편집</a></span>
+                        <span>|</span>
+                        <span><a href="#">인터넷방송</a></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="spec2">
+                        <div>
+                            <div class="case case1">
+                                <a href="#" class="computerSpec">
+                                    <img src="../image/computer_img1.png" class="comPic" alt="추천 사양">
+                                    <span class="spectext spectext1">THE.FIXER-특가 제품-BEST-3</span>
+                                    <span class="spectext spectext2">intel 펜티엄 6405</span>
+                                    <span class="spectext spectext3">283,900원</span>
+                                </a>
+                            </div>
+                            <div class="case case2">
+                                <a href="#" class="computerSpec">
+                                    <img src="./image/computer_img3.png" class="comPic" alt="추천 사양">
+                                    <span class="spectext spectext1">인텔 12세대 12100 사무용 PC</span>
+                                    <span class="spectext spectext2">intel i3 12100</span>
+                                    <span class="spectext spectext3">381,500원</span>
+                                </a>
+                            </div>
+                            <div class="case case3">
+                                <a href="#" class="computerSpec">
+                                    <img src="./image/computer_img3.png" class="comPic" alt="추천 사양">
+                                    <span class="spectext spectext1">AMD 라이젠5 4세대 5700G 탑재</span>
+                                    <span class="spectext spectext2">Ryzen 세잔 5700G</span>
+                                    <span class="spectext spectext3">545,100원</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============중간 사양별 추천=============================== -->
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+                <div><img src="" alt=""></div>
+            </div>
+        </div>
+        <!-- =====================================푸터입니다================== -->
+        <div id="footer">
+            <div class="contain">
+                <div class="footerTop">
+                    <img src="../image/footer.png" alt="컴퓨터회사이미지">
+                </div>
+                <div class="footerBottom">
+                    <div class="info">
+                        <span class="sub_title">Company Information</span>
+                        <ul>
+                            <li>
+                                <span>경기도 성남시 분당구 돌마로 46 KR 5층 성남 그린 컴퓨터 아카데미</span>
+                            </li>
+                            <li>
+                                <span>대표 : 최원석</span><br>
+                                <span>개인정보보호 담당자 : 이학로</span>
+                            </li>
+                            <li>
+                                <span>상담 및 AS : 1234-1234</span><br>
+                                <span>FAX : 031-1234-1234</span><br>
+                                <span>이메일 : thefixer@gmail.com</span>
+                            </li>
+                            <li>
+                                <span>사업자번호 : 123-1234</span>
+                                <span>통신판매신고 : 1234-성남그린-12345</span><br>
+                                <span>분쟁조정기관표시 : 소비자보호원</span><br>
+                                <span>호스팅제공자 : (주)THE FIXER</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer_two">
+                        <div class="footerline">
+                            <!-- <div class="footernotice">공지사항</div> -->
+                            <ul class="footerinfo">
+                                <li>
+                                    <a href="#">회사소개</a>
+                                </li>
+                                <li>
+                                    <a href="#">이용약관</a>
+                                </li>
+                                <li>
+                                    <a href="#">개인정보취급방침</a>
+                                </li>
+                                <li>
+                                    <a href="#">고객만족센터</a>
+                                </li>
+                                <li>
+                                    <a href="#">제휴문의</a>
+                                </li>
+                                <li>
+                                    <a href="#">맞춤결제</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img class="footer_logo" src="./image/logo_BK_com.png" alt="푸터 로고">
+                        </div>
+                        <div class="footer_img">
+                            <a href="#"><img class="footer_icon" src="./image/Facebook.png" alt="페북 아이콘"></a>
+                            <a href="#"><img class="footer_icon" src="./image/free-icon-instagram-4138124.png"
+                                    alt=""></a>
+                            <a href="#"><img class="footer_icon3" src="./image/naverblog.png" alt="네이버 블로그 아이콘"></a>
+                            <a href="#"><img class="footer_icon4" src="./image/naver_icon.png" alt="네이버 블로그"></a>
+                            <a href="#"><img class="footer_icon" src="./image/free-icon-youtube-3670147.png"
+                                    alt="유튜브 아이콘"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

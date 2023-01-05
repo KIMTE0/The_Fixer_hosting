@@ -1,0 +1,2165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best_Seller</title>
+
+    <!-- 폰트 + 페이지 css -->
+    <link rel="stylesheet" href="../font/font.css">
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="./best_seller.css">
+    <script src="https://kit.fontawesome.com/bfb0334003.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="Pre_R">
+    <header>
+        <div class="header_wrap header">
+            <div class="top_header">
+                <!-- <div><img class="top_logo" src="./image/main-logo.png" alt=""></div> -->
+                <div class="top_coupon">
+                    <a href="../member_join/member_join.html" class="freecoupon">지금 회원 가입 시, 첫 주문 배송비 무료쿠폰 증정!</a>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" name="" placeholder="찾으시는 제품을 입력해주세요">
+                    <a class="search-btn" href="#">
+                        <i></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ==========================메인로고, 메뉴카테고리========================== -->
+    
+            <!-- ===========상단 메뉴============ -->
+    
+            <nav class="header_nav">
+                <div class="navbar">
+                    <a href="../index.html"><img class="nav_logo" src="../image/logo_OG_com.png" alt="THE FIXER 로고"></a>
+    
+    
+                    <!-- 드롭다운1 -->
+                    <div class="dropdown">
+                        <!-- 드롭다운 버튼 -->
+                        <!-- 햄버거 버튼 -->
+                        <button class="dropbtn">
+                            <a class="category" href="#">
+                                <input type="checkbox" id="check_box">
+                                <label class="burgerx" for="check_box">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </label>전체 카테고리
+                            </a>
+                        </button>
+                        <!-- 드롭다운 내용물 -->
+                        <div class="dropdown-content">
+                            <!-- 드롭다운 내용물 : 제목 -->
+                            <!-- <div class="header">
+                                        <h2>메가 메뉴</h2>
+                                    </div> -->
+                            <!-- 드롭다운 내용물 : 카테고리 모음 -->
+                            <div class="row">
+                                <div class="category_top">
+                                    <span>전체메뉴</span>
+                                </div>
+    
+                                <div class="menu_page">
+                                    <ul class="header_menu">
+                                        <!-- best_seller page 연동 -->
+                                        <li><a href="../best_seller/best_seller.html">PC주요제품</a>
+                                            <div class="mega_menu">
+                                                <div class="col">
+                                                    <ul>
+                                                        <li class="relative"><a href="#">CPU</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">인텔</a></li>
+                                                                        <li><a href="#">AMD</a></li>
+                                                                        <li><a href="#">기타</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+    
+                                                        <li><a href="#">메인보드</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">인텔 CPU용</a></li>
+                                                                        <li><a href="#">AMD CPU용</a></li>
+                                                                        <li><a href="#">리퍼비시 메인보드</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">RAM</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">DDR3</a></li>
+                                                                        <li><a href="#">DDR2</a></li>
+                                                                        <li><a href="#">DDR</a></li>
+                                                                        <li><a href="#">SDR</a></li>
+                                                                        <li><a href="#">기타</a></li>
+                                                                        <li><a href="#">DDR4</a></li>
+                                                                        <li><a href="#">DDR5</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">VGA</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">AMD(ATi) 계열</a></li>
+                                                                        <li><a href="#">NVIDIA 계열</a></li>
+                                                                        <li><a href="#">Matrox 계열</a></li>
+                                                                        <li><a href="#">기타 계열</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">SSD</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">내장형 SSD</a></li>
+                                                                        <li><a href="#">외장형 SSD</a></li>
+                                                                        <li><a href="#">SSD 주변기기</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">HDD</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">PC용 HDD</a></li>
+                                                                        <li><a href="#">노트북용 HDD</a></li>
+                                                                        <li><a href="#">서버용 HDD</a></li>
+                                                                        <li><a href="#">내장형 카드 리더기</a></li>
+                                                                        <li><a href="#">FDD</a></li>
+                                                                        <li><a href="#">리퍼비시 HDD</a></li>
+                                                                        <li><a href="#">HDD 복사기</a></li>
+                                                                        <li><a href="#">HDD 주변기기</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">케이스</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">일반 PC케이스</a></li>
+                                                                        <li><a href="#">HTPC케이스</a></li>
+                                                                        <li><a href="#">튜닝 케이스</a></li>
+                                                                        <li><a href="#">랙마운트</a></li>
+                                                                        <li><a href="#">케비넷</a></li>
+                                                                        <li><a href="#">미니PC용(미니ITX)</a></li>
+                                                                        <li><a href="#">전용 액세서리</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">파워</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">ATX 파워</a></li>
+                                                                        <li><a href="#">Micro-ATX 파워</a></li>
+                                                                        <li><a href="#">AT 파워</a></li>
+                                                                        <li><a href="#">TFX 파워</a></li>
+                                                                        <li><a href="#">서버용 파워</a></li>
+                                                                        <li><a href="#">UPS</a></li>
+                                                                        <li><a href="#">DC to DC</a></li>
+                                                                        <li><a href="#">인버터</a></li>
+                                                                        <li><a href="#">중고 파워</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+    
+                                        <li><a href="#">주변기기</a>
+                                            <div class="mega_menu">
+                                                <div class="col">
+                                                    <ul>
+                                                        <li class="relative"><a href="#">컨트롤러</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">컨트롤러</a></li>
+                                                                        <li><a href="#">KVM 스위치</a></li>
+                                                                        <li><a href="#">USB 허브</a></li>
+                                                                        <li><a href="#">USB 허브</a></li>
+                                                                        <li><a href="#">공유기/분배기/선택기</a></li>
+                                                                        <li><a href="#">리피터</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+    
+                                                        <li><a href="#">쿨러/튜닝</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">CPU 쿨러</a></li>
+                                                                        <li><a href="#">VGA 쿨러</a></li>
+                                                                        <li><a href="#">시스템 쿨러</a></li>
+                                                                        <li><a href="#">HDD 쿨러</a></li>
+                                                                        <li><a href="#">RAM 쿨러</a></li>
+                                                                        <li><a href="#">튜닝용품</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">케이블</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">데이터 케이블</a></li>
+                                                                        <li><a href="#">HDMI 케이블</a></li>
+                                                                        <li><a href="#">비디오 케이블</a></li>
+                                                                        <li><a href="#">오디오 케이블</a></li>
+                                                                        <li><a href="#">LAN 케이블</a></li>
+                                                                        <li><a href="#">전원 케이블</a></li>
+                                                                        <li><a href="#">기타 케이블</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">VGA</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">AMD(ATi) 계열</a></li>
+                                                                        <li><a href="#">NVIDIA 계열</a></li>
+                                                                        <li><a href="#">Matrox 계열</a></li>
+                                                                        <li><a href="#">기타 계열</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="#">USB</a>
+                                                            <div class="mega_inner_menu">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li><a href="#">USB 메모리</a></li>
+                                                                        <li><a href="#">USB 용품</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+    
+                                        <li><a href="#">멀티미디어/네트워크</a>
+    
+                                        </li>
+    
+                                        <li><a href="#">소모품</a>
+    
+                                        </li>
+    
+                                        <li><a href="#">이어폰/헤드셋</a>
+    
+                                        </li>
+    
+                                        <li><a href="#">사무기기</a>
+    
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <a href="../self_making_estimate/self_making_estimate.html">셀프견적</a>
+                    </div>
+    
+                    <div>
+                        <a href="#">견적상담</a>
+                    </div>
+    
+                    <div>
+                        <a href="#">추천PC</a>
+                    </div>
+    
+                    <div>
+                        <a href="#">
+                            <span class="color_red">월간</span>PC
+                        </a>
+                    </div>
+    
+    
+                    <div>
+                        <a href="../community/community_main.html">커뮤니티</a>
+                    </div>
+    
+                    <div class="loginMenu">
+                        <ul>
+                            <li>
+                                <a href="../log_in/log_in.html">로그인 &#124;</a>
+                            </li>
+                            <li>
+                                <a href="../shopping_basket/Shopping_Basket.html">장바구니 &#124;</a>
+                            </li>
+                            <li>
+                                <a href="../mypage/mypage.html">마이페이지 &#124;</a>
+                            </li>
+                            <li>
+                                <a href="../service_center/service_center.html">고객센터</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="wrap">
+            <div class="movetop" id="movetop">
+                <a href="#wrap"></a>
+            </div>
+            <div class="my_goods">
+                <div class="my_goods_fixed">
+                    <div class="checkBox">
+                        <div>부품</div>
+                        <div>상품명</div>
+                        <div>호환성</div>
+                    </div>
+                    <div class="my_goodsBox">
+                        <div><span>cpu</span></div>
+                        <div>intel 13세대 I9-13900K</div>
+                        <div></div>
+                    </div>
+
+                    <div class="my_goodsBox">
+                        <div><span>메인보드</span></div>
+                        <div>ASUS PRIME Z790M-PLUS D4-CSM</div>
+                        <div></div>
+                    </div>
+
+                    <div class="my_goodsBox">
+                        <div><span>VGA</span></div>
+                        <div>RTX NVIDIA 4080</div>
+                        <div></div>
+                    </div>
+
+                    <div class="my_goodsBox">
+                        <div><span>케이스</span></div>
+                        <div>Fractal Design North Charcoal Black Mesh</div>
+                        <div></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="main_wrap" class="main_wrap">
+                <div class="main_goods_wrap">
+                    <div class="goods_href_wrap">
+                        <div class="goods_href">
+                            <div class="goods_href_textbox">cpu</div>
+                            <a href="#main_goods_cpu">
+                                <img src="./image/cpu_img_mini.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="goods_href">
+                            <div class="goods_href_textbox">Mainboard</div>
+                            <a href="#main_goods_mainboard">
+                                <img src="./image/mainboard_img_mini.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="goods_href">
+                            <div class="goods_href_textbox">VGA</div>
+                            <a href="#main_goods_vga">
+                                <img src="./image/vga_img_mini.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="goods_href">
+                            <div class="goods_href_textbox">케이스</div>
+                            <a href="#main_goods_case">
+                                <img src="./image/chase_img_mini.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="goods_href">
+                            <div class="goods_href_textbox">저장장치</div>
+                            <a href="#main_goods_ssd">
+                                <img src="./image/ssd_img_mini_.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="goods_href">
+                            <div class="goods_href_textbox">메모리</div>
+                            <a href="#main_goods_ram">
+                                <img src="./image/ram_img_mini.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="main_goods_cpu">
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>Intel CPU</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <!-- 제품 상세페이지와 연동된 상품 -->
+                                    <a href="../Product_Details_Page/product_details_page.html">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/intel_cpu/intel13th_I9-13900K.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>intel 13세대 I9-13900K</strong>인텔(소켓1700) / 10nm(인텔7) / 8+16코어 /
+                                                16+16쓰레드 / 기본 클럭:3.0GHz / 최대 클럭:5.8GHz / L3 캐시:36MB / PBP/MTP:125~253W /
+                                                PCIe5.0, 4.0
+                                                / 메모리 규격:DDR5, DDR4 / 5600, 3200MHz / 내장그래픽:탑재 / 인텔 UHD 770 / 기술
+                                                지원:하이퍼스레딩 /
+                                                쿨러:미포함</span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/intel_cpu/intel 13th_I7-13700K.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span>
+                                                <strong>intel 13세대 I7-13700K</strong>
+                                                인텔(소켓1700) / 10nm(인텔7) / 8+8코어 / 16+8쓰레드 / 기본 클럭:3.4GHz / 최대 클럭:5.4GHz /
+                                                L3 캐시:30MB / PBP/MTP:125~253W / PCIe5.0, 4.0 /
+                                                메모리 규격:DDR5, DDR4 / 5600, 3200MHz / 내장그래픽:탑재 / 인텔 UHD 770 / 기술 지원:하이퍼스레딩
+                                                / 쿨러:미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/intel_cpu/intel 12th_I9-12900K.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span>
+                                                <strong>intel 12세대 I9-12900K</strong>
+                                                인텔(소켓1700) / 10nm(인텔7) / 8+8코어 / 16+8쓰레드 / 기본 클럭:3.2GHz / 최대 클럭:5.2GHz /
+                                                L3 캐시:30MB / TDP:125~241W / PCIe5.0, 4.0 / 메모리
+                                                규격:DDR5, DDR4 / 4800, 3200MHz / 내장그래픽:탑재 / 인텔 UHD 770 / 기술 지원:하이퍼스레딩,옵테인
+                                                / 쿨러:미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/intel_cpu/intel 12th_I7-12700K.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span>
+                                                <strong>intel 12세대 I7-12700K</strong>
+                                                인텔(소켓1700) / 10nm(인텔7) / 8+4코어 / 16+4쓰레드 / 기본 클럭:3.6GHz / 최대 클럭:5.0GHz /
+                                                L3 캐시:25MB / TDP:125~190W / PCIe5.0, 4.0 / 메모리
+                                                규격:DDR5, DDR4 / 4800, 3200MHz / 내장그래픽:탑재 / 인텔 UHD 770 / 기술 지원:하이퍼스레딩,옵테인
+                                                / 쿨러:미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>AMD CPU</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/amd_cpu/amd_ryzen9-5th.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>AMD 라이젠9-5세대 7950X (라파엘)</strong>
+                                                AMD(소켓AM5) / 5세대(Zen4) / 5nm / 16코어 / 32쓰레드 / 기본 클럭: 4.5GHz / 최대 클럭:
+                                                5.7GHz / L3 캐시: 64MB / TDP: 170W / PCIe5.0 / 메모리
+                                                규격: DDR5 / 5200MHz / 내장그래픽: 탑재 / AMD 라데온 그래픽 / 쿨러: 미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/amd_cpu/amd_ryzen9-5th.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>AMD 라이젠9-5세대 7900X (라파엘)</strong>
+                                                AMD(소켓AM5) / 5세대(Zen4) / 5nm / 12코어 / 24쓰레드 / 기본 클럭: 4.7GHz / 최대 클럭:
+                                                5.6GHz / L3 캐시: 64MB / TDP: 170W / PCIe5.0 / 메모리
+                                                규격: DDR5 / 5200MHz / 내장그래픽: 탑재 / AMD 라데온 그래픽 / 쿨러: 미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/amd_cpu/amd_ryzen9-5th.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>AMD 라이젠7-5세대 7700X (라파엘)</strong>
+                                                AMD(소켓AM5) / 5세대(Zen4) / 5nm / 8코어 / 16쓰레드 / 기본 클럭: 4.5GHz / 최대 클럭:
+                                                5.4GHz / L3 캐시: 32MB / TDP: 105W / PCIe5.0 / 메모리 규격:
+                                                DDR5 / 5200MHz / 내장그래픽: 탑재 / AMD 라데온 그래픽 / 쿨러: 미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/amd_cpu/amd_ryzen9-5th.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>AMD 라이젠5-5세대 7600X (라파엘)</strong>
+                                                AMD(소켓AM5) / 5세대(Zen4) / 5nm / 6코어 / 12쓰레드 / 기본 클럭: 4.7GHz / 최대 클럭:
+                                                5.3GHz / L3 캐시: 32MB / TDP: 105W / PCIe5.0 / 메모리 규격:
+                                                DDR5 / 5200MHz / 내장그래픽: 탑재 / AMD 라데온 그래픽 / 쿨러: 미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="main_goods_mainboard">
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>Intel CPU용 메인보드</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/intel_board/asrock_b660m_pro.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>ASRock B660M Pro RS D4 에즈윈</strong>
+                                                인텔(소켓1700) / 인텔 B660 / M-ATX (24.4x24.4cm) / 전원부: 8페이즈 / DDR4 /
+                                                PC4-38400 (4,800MHz) / 메모리 용량: 최대 128GB / XMP / 옵테인 /
+                                                VGA 연결: PCIe4.0 x16 / GPU 기술: CrossFire X / 그래픽 출력: HDMI , DP / PCIe 슬롯:
+                                                3개 / M.2: 2+1개 / SATA3: 4개 / 후면단자: USB 3.0 ,
+                                                USB 2.0 / PS/2: 콤보 1개 / 기가비트 LAN
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/intel_board/gigabyte_z790_aorus_elite.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>GIGABYTE Z790 AORUS ELITE</strong>
+                                                인텔(소켓1700) / 인텔 Z790 / ATX (30.5x24.4cm) / 전원부: 16+1+2페이즈 / Vcore 출력: 최대
+                                                1120A(70A) / 메모리 DDR5 / 7600MHz (PC5-60800) /
+                                                4개 / 메모리 용량: 최대 128GB / XMP / 확장슬롯 VGA 연결: PCIe5.0 x16 / PCIe버전:
+                                                PCIe5.0, PCIe4.0 / PCIex16: 1개 / PCIex16(at x4): 2개 /
+                                                CrossFire / 저장장치 SATA3: 6개 / M.2: 4개 / SATA / NVMe / PCIe4.0
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/intel_board/msi_mag_b660m.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>MSI MAG B660M 박격포 DDR4</strong>
+                                                인텔(소켓1700) / 인텔 B660 / M-ATX (24.4x24.4cm) / 전원부: 14페이즈 / DDR4 /
+                                                PC4-38400 (4,800MHz) / 메모리 용량: 최대 128GB / XMP / 옵테인 /
+                                                VGA 연결: PCIe4.0 x16 / GPU 기술: CrossFire / 그래픽 출력: HDMI , DP / PCIe 슬롯:
+                                                3개 / M.2: 2개 / SATA3: 6개 / 후면단자: USB 3.2 , USB
+                                                3.1 , USB 2.0 / 기가비트 LAN / 2.5기가비트 LAN / UEFI / LED 헤더 / M.2 히트싱크
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/intel_board/asus_rog_maximus_z790.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>ASUS ROG MAXIMUS Z790 APEX</strong>
+                                                인텔(소켓1700) / 인텔 Z790 / ATX (30.5x24.4cm) / 전원부: 20+1페이즈 / Vcore 출력: 최대
+                                                1800A(90A) / 메모리 DDR5 / 7800MHz (PC5-62400) / 4개
+                                                / 메모리 용량: 최대 128GB / XMP / 확장슬롯 VGA 연결: PCIe5.0 x16 / PCIe버전: PCIe5.0,
+                                                PCIe4.0 / PCIex16: 1개 / PCIex16(at x4): 1개 / 저장장치
+                                                SATA3: 6개 / M.2: 3개 / SATA / NVMe / PCIe4.0 / 후면단자 HDMI
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>AMD CPU용 메인보드</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/amd_board/asus_tuf_gaming_b550m-plus.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>ASUS TUF Gaming B550M-PLUS</strong>
+                                                AMD(소켓AM4) / (AMD) B550 / M-ATX (24.4x24.4cm) / 전원부: 8+2페이즈 / DDR4 / 메모리
+                                                용량: 최대 128GB / VGA 연결: PCIe4.0 x16 / GPU 기술:
+                                                CrossFire X / 그래픽 출력: HDMI , DP / PCIe 슬롯: 3개 / M.2: 2개 / SATA3: 4개 /
+                                                PS/2: 콤보 1개 / USB 2.0: 후면 2개 / USB 3.1 Gen 1: 후면
+                                                4개 / USB 3.1 Gen 2: 후면 2개
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/amd_board/asus-prime_b550m-a.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>ASUS PRIME B550M-A 대원씨티에스</strong>
+                                                AMD(소켓AM4) / (AMD) B550 / M-ATX (24.4x24.4cm) / DDR4 / 메모리 용량: 최대 128GB
+                                                / VGA 연결: PCIe4.0 x16 / 그래픽 출력: D-SUB , DVI ,
+                                                HDMI / PCIe 슬롯: 3개 / M.2: 2개 / SATA3: 4개 / PS/2: 콤보 1개 / USB 3.1 Gen 1:
+                                                후면 4개 / USB 3.1 Gen 2: 후면 2개 / 기가비트 LAN / UEFI /
+                                                LED 헤더 / AURA SYNC
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/amd_board/asrock_b550m_pro4.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>ASRock B550M PRO4 디앤디컴</strong>
+                                                AMD(소켓AM4) / (AMD) B550 / M-ATX (24.4x24.4cm) / 전원부: 8페이즈 / DDR4 / 메모리
+                                                용량: 최대 128GB / XMP / VGA 연결: PCIe4.0 x16 / GPU
+                                                기술: CrossFire X / 그래픽 출력: D-SUB , HDMI , DP / PCIe 슬롯: 3개 / M.2: 2개 /
+                                                SATA3: 6개 / PS/2: 콤보 1개 / USB 2.0: 후면 2개 / USB 3.1
+                                                Gen 1: 후면 4개 / USB 3.1 Gen 2: 후면 2개
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/mainboard/amd_board/GIGABYTE B550 AORUS PRO V2.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>GIGABYTE B550 AORUS PRO V2</strong>
+                                                AMD(소켓AM4) / (AMD) B550 / ATX (30.5x24.4cm) / 전원부: 12+2페이즈 / DDR4 / 메모리
+                                                용량: 최대 128GB / XMP / VGA 연결: PCIe4.0 x16 / 그래픽
+                                                출력: HDMI / PCIe 슬롯: 5개 / M.2: 2개 / SATA3: 6개 / USB 2.0: 후면 6개 / USB 3.1
+                                                Gen 1: 후면 2개 / USB 3.1 Gen 2: 후면 3개 / 기가비트 LAN /
+                                                2.5기가비트 LAN / UEFI / LED 라이트 / LED 헤더 / M.2 히트싱크 / RGB FUSION
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="main_goods_vga">
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>NVIDIA칩셋</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/msi_geforce_rtx4808.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>MSI 지포스 RTX 4080 게이밍</strong>
+                                                RTX 4080 / 4nm / 부스트클럭:2595MHz / 스트림 프로세서:9728개 / PCIe4.0x16 /
+                                                GDDR6X(DDR6X) / 출력단자:HDMI2.1,DP1.4 / 부가기능:제로팬(0-dB기술),8K
+                                                해상도 지원,4K 해상도 지원,HDR 지원,Dual BIOS,HDCP 지원 / 사용전력:최대 320W / 정격파워 850W 이상
+                                                / 전원 포트:16(12+4)핀 x1개 / 3개 팬 / 가로(길이):337mm /
+                                                백플레이트 / LED 라이트 / Dr.MOS 모스펫 / MYSTIC LIGHT
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/GIGABYTE_AORUS_geforce_RTX4080_Master_D6X-16GB-pcdirect.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>GIGABYTE AORUS 지포스 RTX 4080</strong>
+                                                RTX 4080 / 4nm / 부스트클럭:2550MHz / 스트림 프로세서:9728개 / PCIe4.0x16 /
+                                                GDDR6X(DDR6X) / 출력단자:HDMI2.1,DP1.4 / 부가기능:제로팬(0-dB기술),8K
+                                                해상도 지원,4K 해상도 지원,HDR 지원,Dual BIOS / 정격파워 850W 이상 / 전원 포트:16(12+4)핀 x1개 /
+                                                3개 팬 / 가로(길이):357mm / 백플레이트 / LED 라이트 / LCD
+                                                모니터링 / RGB FUSION / A/S 3년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/GIGABYTE-AORUS_geforce_RTX3080Ti-Xtreme_waterblock_D6X_12GB_pcdirect.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>GIGABYTE AORUS 지포스 RTX 3080ti</strong>
+                                                RTX 3080 Ti / 8nm / 부스트클럭:1770MHz / 스트림 프로세서:10240개 / PCIe4.0x16 /
+                                                GDDR6X(DDR6X) / 출력단자:HDMI2.1,HDMI2.0,DP1.4 / 부가기능:8K
+                                                해상도 지원,4K 해상도 지원,HDR 지원,HDCP 2.3 / 정격파워 750W 이상 / 전원 포트:8핀 x2개 /
+                                                가로(길이):252mm / 백플레이트 / LED 라이트 / 수냉 장착 지원 / RGB FUSION
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/emtec_geforce_RTX3060ti_STORM-X_Dual_OC_D6_8GB_LHR.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>이엠텍 지포스 RTX 3060 Ti</strong>
+                                                RTX 3060 Ti / 8nm / 부스트클럭:1695MHz / 스트림 프로세서:4864개 / PCIe4.0x16 /
+                                                GDDR6(DDR6) / 출력단자:HDMI2.1,DP1.4 / 부가기능:제로팬(0-dB기술),8K
+                                                해상도 지원,4K 해상도 지원,HDR 지원,HDCP 2.3 / 사용전력:최대 200W / 정격파워 550W 이상 / 전원
+                                                포트:8핀 x1개 / 전원부:8페이즈 / 2개 팬 / 가로(길이):247mm / 백플레이트 /
+                                                LED 라이트 / Dr.MOS 모스펫 / ThunderMaster / A/S 3년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>AMD칩셋</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/amd/asrock_radeon_rx7900xtx-d6_24gb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>ASRock 라데온 RX 7900 XTX D6 24GB</strong>
+                                                RX 7900 XTX / 5nm / 부스트클럭:2500MHz / 스트림 프로세서:6144개 / PCIe4.0x16 /
+                                                GDDR6(DDR6) / 출력단자:HDMI2.1,DP2.1,USB Type-C / 부가기능:8K
+                                                해상도 지원,4K 해상도 지원,HDR 지원,HDCP 지원 / 정격파워 800W 이상 / 전원 포트:8핀 x2개 / 3개 팬 /
+                                                가로(길이):287mm / 백플레이트 / A/S 2년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/amd/xfx_radeon_rx6600-swft.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>XFX 라데온 RX 6600 SWFT 210 D6 8GB</strong>
+                                                RX 6600 / 7nm / 베이스클럭:1626MHz / 부스트클럭:2491MHz / 스트림 프로세서:1792개 /
+                                                PCIe4.0x16(at x8) / GDDR6(DDR6) / 출력단자:HDMI2.1,DP1.4 /
+                                                부가기능:제로팬(0-dB기술),8K 해상도 지원,4K 해상도 지원,HDR 지원,HDCP 2.3 / 정격파워 650W 이상 / 전원
+                                                포트:8핀 x1개 / 2개 팬 / 가로(길이):241mm / 백플레이트 / A/S
+                                                3년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/amd/asus_dual_radeon_rx6700-xt_d6-12gb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>ASUS 라데온 RX 6700XT D6 12GB</strong>
+                                                RX 6700 XT / 7nm / 스트림 프로세서:2560개 / PCIe4.0x16 / GDDR6(DDR6) /
+                                                출력단자:HDMI2.1,DP1.4 / 부가기능:멀티 VGA,8K 해상도 지원,4K 해상도 지원,HDR
+                                                지원,Dual BIOS,HDCP 2.3 / 정격파워 650W 이상 / 전원 포트:6핀 x1 + 8핀 x1개 / 2개 팬 /
+                                                가로(길이):295mm / 백플레이트 / LED 라이트 / AURA SYNC / A/S 3년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/vga/amd/msi_radeon_rx6800-gamingX-trio-d6_16gb.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>MSI 라데온 RX 6800 게이밍 X 트리오</strong>
+                                                RX 6800 / 7nm / 베이스클럭:1775MHz / 부스트클럭:2155MHz / 스트림 프로세서:3840개 /
+                                                PCIe4.0x16 / GDDR6(DDR6) / 출력단자:HDMI2.1,DP1.4 /
+                                                부가기능:제로팬(0-dB기술),8K 해상도 지원,4K 해상도 지원,HDR 지원,HDCP 지원 / 사용전력:최대 250W /
+                                                정격파워 650W 이상 / 전원 포트:8핀 x2개 / 3개 팬 / 가로(길이):324mm /
+                                                백플레이트 / LED 라이트 / MYSTIC LIGHT / A/S 3년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="main_goods_case">
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>ATX</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/atx/micronix_master_m60_mesh-black.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>마이크로닉스 Master M60 메쉬 (블랙)</strong>
+                                                PC케이스(ATX) / 미들타워 / 파워미포함 / 표준-ATX / Micro-ATX / Mini-ITX / 쿨링팬:총6개 /
+                                                LED팬:4개 / 전면 패널 타입:메쉬 / 측면:강화유리 / 후면:120mm LED x1
+                                                / 전면:120mm LED x3 / 상단:120mm x2 / 너비(W):221mm / 깊이(D):390mm /
+                                                높이(H):461mm / 파워 장착:190mm / 파워 위치:하단후면 / GPU 장착:325mm /
+                                                CPU쿨러 장착:175mm / RGB 컨트롤 / LED 색상:RGB
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/atx/suitmaster_p3000_zeus_argb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>앱코 SUITMASTER P3000 제우스 ARGB</strong>
+                                                PC케이스(ATX) / 미들타워 / 파워미포함 / Extended-ATX / 표준-ATX / Micro-ATX / Mini-ITX
+                                                / 쿨링팬:총4개 / LED팬:4개 / 전면 패널
+                                                타입:메쉬 / 측면:강화유리 / 후면:140mm LED x1 / 전면:140mm LED x3 / 너비(W):235mm /
+                                                깊이(D):500mm / 높이(H):485mm / 파워 장착:230mm / 파워 위치:하단후면
+                                                / GPU 장착:425mm / CPU쿨러 장착:178mm / LED 색상:ARGB
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/atx/darkflash_dlx21_rgb_mesh.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>darkFlash DLX21 RGB MESH 강화유리</strong>
+                                                PC케이스(ATX) / 미들타워 / 파워미포함 / Extended-ATX / 표준-ATX / Micro-ATX / Mini-ITX
+                                                / 쿨링팬:총4개 / LED팬:4개 / 전면 패널 타입:메쉬 / 측면:강화유리 /
+                                                후면:140mm LED x1 / 전면:140mm LED x3 / 너비(W):233mm / 깊이(D):448mm /
+                                                높이(H):493mm / 파워 장착:235mm / 파워 위치:하단후면 / GPU 장착:400mm /
+                                                CPU쿨러 장착:180mm / RGB 컨트롤 / LED 색상:RGB
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/atx/zalman_Z10_plus.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>잘만 Z10 PLUS</strong>
+                                                PC케이스(ATX) / 미들타워 / 파워미포함 / Extended-ATX / 표준-ATX / Micro-ATX / Mini-ITX
+                                                / 쿨링팬:총4개 / LED팬:4개 / 전면 패널 타입:메쉬 / 측면:강화유리 /
+                                                후면:120mm LED x1 / 전면:140mm LED x3 / 너비(W):220mm / 깊이(D):481mm /
+                                                높이(H):488mm / 파워 장착:200mm / 파워 위치:하단후면 / GPU 장착:395mm /
+                                                CPU쿨러 장착:173mm / 외부LED 컨트롤 / LED 색상:ARGB
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>M-ATX</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/m-atx/micronix_em1-Woofer.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>마이크로닉스 EM1-Woofer 강화유리</strong>
+                                                PC케이스(M-ATX) / 미니타워 / 파워미포함 / Micro-ATX / Mini-ITX / 쿨링팬:총2개 / LED팬:2개 /
+                                                측면:강화유리 / 후면:120mm LED x1 / 전면:160mm LED x1 /
+                                                너비(W):210mm / 깊이(D):373mm / 높이(H):424mm / 파워 장착:180mm / 파워 위치:하단후면 / GPU
+                                                장착:320mm / CPU쿨러 장착:160mm / RGB 컨트롤 / LED
+                                                색상:화이트
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/m-atx/darkflash_dlm200_mesh_performance.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>darkFlash DLM200 mesh</strong>
+                                                PC케이스(M-ATX) / 미니타워 / 파워미포함 / Micro-ATX / Mini-ITX / 쿨링팬:총4개 / 전면 패널
+                                                타입:메쉬 / 측면:강화유리 / 후면:120mm x1 / 전면:120mm x3 /
+                                                너비(W):208mm / 깊이(D):381mm / 높이(H):425.5mm / 파워 장착:210mm / 파워 위치:하단후면 /
+                                                GPU 장착:330mm / CPU쿨러 장착:160mm
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/m-atx/darkflash_dlm21_rgb_mesh.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>darkFlash DLM21 RGB MESH</strong>
+                                                PC케이스(M-ATX) / 미니타워 / 파워미포함 / Micro-ATX / Mini-ITX / 쿨링팬:총3개 / LED팬:3개 /
+                                                전면 패널 타입:메쉬 / 측면:강화유리 / 후면:120mm LED x1 /
+                                                전면:120mm LED x2 / 너비(W):208mm / 깊이(D):376mm / 높이(H):425mm / 파워 장착:210mm
+                                                / 파워 위치:하단후면 / GPU 장착:330mm / CPU쿨러 장착:160mm /
+                                                RGB 컨트롤 / LED 색상:RGB
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/m-atx/fractal_design_pop_mini_air_rgb_clear.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>Fractal Design Pop Mini Air RGB Clear</strong>
+                                                PC케이스(M-ATX) / 미니타워 / 파워미포함 / Micro-ATX / Mini-ITX / 쿨링팬:총3개 / LED팬:3개 /
+                                                전면 패널 타입:메쉬 / 측면:강화유리 / 후면:120mm LED x1 /
+                                                전면:120mm LED x2 / 너비(W):215mm / 깊이(D):432mm / 높이(H):393mm / 파워 장착:150mm
+                                                / 파워 위치:하단후면 / GPU 장착:365mm / CPU쿨러 장착:170mm /
+                                                외부LED 컨트롤 / LED 색상:RGB
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>RTX</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/rtx/silverstone_fortress_ft04b-w.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>SilverStone Fortress FT04B-W iBORA</strong>
+                                                PC케이스(RTX) / 미들타워 / 파워미포함 / Extended-ATX / 표준-ATX / Micro-ATX / 측면:아크릴 /
+                                                전면:180mm x2 / 너비(W):181~220mm / 깊이(D):482mm /
+                                                높이(H):546mm / 파워 위치:상단 / GPU 장착:최대 338mm
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/rtx/darkflash_dlv22_rgb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>darkFlash DLV22 RGB 강화유리</strong>
+                                                PC케이스(RTX) / 미들타워 / 파워미포함 / 표준-ATX / Micro-ATX / Mini-ITX / 쿨링팬:총2개 /
+                                                LED팬:2개 / 전면 패널 타입:일반(솔리드) / 측면:강화유리 / 후면:120mm
+                                                LED x2 / 너비(W):215mm / 깊이(D):443mm / 높이(H):440mm / 파워 장착:230mm / 파워
+                                                위치:하단후면 / GPU 장착:320mm / CPU쿨러 장착:165mm / RGB 컨트롤 /
+                                                LED 색상:RGB
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/The_FIXER2_img.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>상품을 준비중입니다.</strong>
+
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/The_FIXER2_img.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>상품을 준비중입니다.</strong>
+
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>Mini-ITX</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/mini-itx/fractal_design_era_itx.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>Fractal Design Era ITX</strong>
+                                                미니ITX / 미니타워 / 파워미포함 / 표준-ITX / 쿨링팬:총1개 / 후면:80mm x1 / 너비(W):166mm /
+                                                높이(H):310mm / 깊이(D):325mm / 파워 장착:200mm / GPU
+                                                장착:295mm / CPU쿨러 장착:120mm
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/mini-itx/lianli_tu150.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>리안리 TU150 강화유리</strong>
+                                                미니ITX / 미니타워 / 파워미포함 / Mini-ITX / 측면:강화유리 / 너비(W):203mm / 높이(H):312mm /
+                                                깊이(D):375mm / 파워 장착:125mm / 파워 위치:기타 / GPU
+                                                장착:320mm / CPU쿨러 장착:165mm
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/mini-itx/nzxt_h210i_matte.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>NZXT H210i Matte</strong>
+                                                미니ITX / 미니ITX(리틀밸리) / 파워미포함 / Mini-ITX / 쿨링팬:총2개 / 측면:강화유리 / 후면:120mm x1
+                                                / 상단:120mm x1 / 너비(W):210mm / 높이(H):349mm /
+                                                깊이(D):372mm / 파워 장착:170mm / 파워 위치:하단후면 / GPU 장착:325mm / CPU쿨러 장착:165mm
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/case/mini-itx/jonsbo_a4.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>JONSBO A4</strong>
+                                                미니ITX / 미니ITX(리틀밸리) / 파워미포함 / Mini-ITX / 수직 PCI형태:기본형 / 측면:강화유리 /
+                                                너비(W):169mm / 높이(H):273mm / 깊이(D):340mm / GPU 장착:325mm
+                                                / CPU쿨러 장착:71mm
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="main_goods_ssd">
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>SSD</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ssd/hynix_platinum_p41_m.2_nvme 1tb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>SK하이닉스 Platinum P41 NVMe(1TB)</strong>
+                                                내장형SSD / M.2 (2280) / PCIe4.0x4 (64GT/s) / NVMe 1.4 / TLC(기타) / 3D낸드 /
+                                                DDR4 / 컨트롤러:SK하이닉스 Aries / PS5 호환 / [성능] /
+                                                순차읽기:7,000MB/s / 순차쓰기:6,500MB/s / 읽기IOPS:1,400K / 쓰기IOPS:1,300K / [지원기능]
+                                                / TRIM / GC / SLC캐싱 / S.M.A.R.T / DEVSLP / AES
+                                                암호화 / 전용 S/W / [환경특성] / MTBF:150만시간 / TBW:750TB / A/S기간:5년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ssd/hynix_gold_p31_nvme_1tb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>SK하이닉스 Gold P31 NVMe (1TB)</strong>
+                                                내장형SSD / M.2 (2280) / PCIe3.0x4 (32GT/s) / NVMe 1.3 / TLC(기타) / 3D낸드 /
+                                                DDR4 / 컨트롤러:SK hynix Cepheus / [성능] /
+                                                순차읽기:3,500MB/s / 순차쓰기:3,200MB/s / 읽기IOPS:570K / 쓰기IOPS:600K / [지원기능] /
+                                                TRIM / SLC캐싱 / S.M.A.R.T / 전용 S/W / [환경특성] /
+                                                MTBF:150만시간 / TBW:750TB / A/S기간:5년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ssd/samsung_pm9a1_nvme_1tb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>삼성전자 PM9A1 NVMe 병행수입 (1TB)</strong>
+                                                내장형SSD / M.2 (2280) / PCIe4.0x4 (64GT/s) / NVMe 1.3 / TLC(기타) / 3D낸드 /
+                                                컨트롤러:삼성 / PS5 호환 / [성능] / 순차읽기:7,000MB/s /
+                                                순차쓰기:5,100MB/s / 읽기IOPS:1,000K / 쓰기IOPS:850K / [환경특성] / MTBF:150만시간 /
+                                                방열판 미포함 / 두께:2.38mm / 9g
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ssd/samsung_980_nvme_1tb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>삼성전자 980 M.2 NVMe (1TB)</strong>
+                                                내장형SSD / M.2 (2280) / PCIe3.0x4 (32GT/s) / NVMe 1.4 / TLC(기타) / 컨트롤러:삼성
+                                                Pablo / [성능] / 순차읽기:3,500MB/s / 순차쓰기:3,000MB/s /
+                                                읽기IOPS:500K / 쓰기IOPS:480K / [지원기능] / TRIM / GC / S.M.A.R.T / DEVSLP /
+                                                HMB / AES 암호화 / 전용 S/W / [환경특성] / MTBF:150만시간 /
+                                                TBW:600TB / A/S기간:5년,제한보증
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>HDD</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/hdd/western_digital_wd_blue.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>Western Digital WD BLUE 5640/128M (WD80EAZZ, 8TB)</strong>
+                                                HDD (PC용) / 8.9cm(3.5인치) / 8TB / SATA3(6Gb/s) / 5,640RPM / 메모리 128MB /
+                                                185MB/s / 기록방식:CMR(PMR) / 두께:26.1mm /
+                                                소음(유휴/탐색):25/30dB / A/S 정보:2년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/hdd/western_digital_wd_blue_4tb.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>Western Digital WD BLUE 5400/256M (WD40EZAZ, 4TB)</strong>
+                                                HDD (PC용) / 8.9cm(3.5인치) / 4TB / SATA3(6Gb/s) / 5,400RPM / 메모리 256MB /
+                                                최대 180MB/s / 기록방식:SMR(PMR) / 두께:26.1mm /
+                                                소음(유휴/탐색):23/27dB / A/S 정보:2년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/hdd/seagate_8tb_barracuda.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>Seagate 8TB Barracuda ST8000DM004 (SATA3/5400/256M)</strong>
+                                                HDD (PC용) / 8.9cm(3.5인치) / 8TB / SATA3(6Gb/s) / 5,400RPM / 메모리 256MB /
+                                                최대 190MB/s / 기록방식:SMR(PMR) / 두께:26.11mm /
+                                                소음(유휴/탐색):23/25dB / A/S 정보:2년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/hdd/seagate_4tb_barracuda.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>Seagate 4TB Barracuda ST4000DM004 (SATA3/5400/256M)</strong>
+                                                HDD (PC용) / 8.9cm(3.5인치) / 4TB / SATA3 (6Gb/s) / 5,400RPM / 메모리 256MB /
+                                                최대 190MB/s / 기록방식:SMR(PMR) / 두께:20.2mm /
+                                                소음(유휴/탐색):22/24dB / A/S 정보:2년
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="main_goods_ram">
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>DDR5</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr5/heIL_ddr5-5200_cl34.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>GeIL DDR5-5200 CL34 POLARIS RGB Gray 패키지
+                                                    (32GB(16Gx2))</strong>
+                                                데스크탑용 / DDR5 / 5200MHz (PC5-41600) / 램타이밍:CL34-38-38-78 / 1.25V / 램개수:2개
+                                                / LED 라이트 / XMP3.0 / EXPO / 온다이ECC / 히트싱크:방열판 /
+                                                방열판 색상:실버/그레이 / LED색상:RGB / LED 시스템:AURA SYNC,MYSTIC LIGHT,RGB
+                                                FUSION,POLYCHROME
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr5/samsung_ddr5_32gb_pc5-38400-4800mhz.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>삼성전자 DDR5 32GB PC5-38400 (4800Mhz)</strong>
+                                                데스크탑용 / DDR5 / 4800MHz (PC5-38400) / 램개수:1개 / 히트싱크:미포함
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr5/teamgroup_t-force_ddr5.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>TeamGroup T-Force DDR5-6400 CL40 RGB 화이트(32GB(16Gx2))</strong>
+                                                데스크탑용 / DDR5 / 6400MHz (PC5-51200) / 램타이밍:CL40-40-40-84 / 1.35V / 램개수:2개
+                                                / LED 라이트 / XMP3.0 / 온다이ECC / 히트싱크:방열판 / 방열판
+                                                색상:화이트 / LED색상:RGB / LED 시스템:AURA SYNC,MYSTIC LIGHT,RGB
+                                                FUSION,POLYCHROME
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr5/gskill_ddr5-6400_cl32.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>G.SKILL DDR5-6400 CL32 TRIDENT Z5 RGB J 패키지
+                                                    (64GB(32Gx2))</strong>
+                                                데스크탑용 / DDR5 / 6400MHz (PC5-51200) / 램타이밍:CL32-39-39-102 / 1.40V /
+                                                램개수:2개 / LED 라이트 / XMP3.0 / 온다이ECC / 히트싱크:방열판 / 방열판
+                                                색상:블랙 / LED색상:RGB / LED 시스템:AURA SYNC,MYSTIC LIGHT,RGB FUSION,POLYCHROME
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main_goods">
+                            <div class="main_textbox">
+                                <strong>DDR4</strong>
+                            </div>
+
+                            <ul>
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr4/oloy_ddr4-3200_cl16_blade.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>OLOy DDR4-3200 CL16 BLADE RGB Black 패키지 (16GB(8Gx2))</strong>
+                                                데스크탑용 / DDR4 / 3200MHz (PC4-25600) / 램타이밍:CL16-18-18-36 / 1.35V / 램개수:2개
+                                                / LED 라이트 / XMP / 히트싱크:방열판 / 방열판 색상:블랙 /
+                                                LED색상:RGB / LED 시스템:AURA SYNC,MYSTIC LIGHT,RGB FUSION,POLYCHROME
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr4/geil_ddr4-3600_cl18_orion.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>GeIL DDR4-3600 CL18 ORION RGB Gray 패키지 (16GB(8Gx2))</strong>
+                                                데스크탑용 / DDR4 / 3600MHz (PC4-28800) / 램타이밍:CL18-22-22-42 / 1.35V / 램개수:2개
+                                                / LED 라이트 / XMP / 히트싱크:방열판 / 방열판 색상:실버/그레이 /
+                                                LED색상:RGB / LED 시스템:AURA SYNC,MYSTIC LIGHT,RGB FUSION,POLYCHROME
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr4/gskill_ddr4_32g_pc4-28800.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>G.SKILL DDR4 32G PC4-28800 CL18 TRIDENT Z RGB (16Gx2)</strong>
+                                                데스크탑용 / DDR4 / 3600MHz (PC4-28800) / 램타이밍:CL18-22-22-42 / 1.35V / 램개수:2개
+                                                / LED 라이트 / XMP / 히트싱크:방열판 / 방열판 색상:블랙 /
+                                                LED색상:RGB / LED 시스템:AURA SYNC,MYSTIC LIGHT,RGB FUSION,POLYCHROME
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+
+                                <li class="goods">
+                                    <a href="#">
+                                        <div class="goods_imgbox">
+                                            <img src="./image/ram/ddr4/gskill_ddr4-3600_cl14_trident.jpg" alt="">
+                                        </div>
+                                        <div class="goods_textbox">
+                                            <span><strong>G.SKILL DDR4-3600 CL14 TRIDENT Z ROYAL A 실버 패키지
+                                                    (32GB(16Gx2))</strong>
+                                                데스크탑용 / DDR4 / 3600MHz (PC4-28800) / 램타이밍:CL14-14-14-34 / 1.45V / 램개수:2개
+                                                / LED 라이트 / XMP / 히트싱크:방열판 / 방열판 색상:실버/그레이 /
+                                                LED색상:RGB / LED 시스템:AURA SYNC,MYSTIC LIGHT,RGB FUSION,POLYCHROME
+                                            </span>
+                                        </div>
+                                    </a>
+                                    <div class="goods_buy_button">
+                                        <button>
+                                            <a href="#">
+                                                장바구니
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                바로구매
+                                            </a>
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="contain">
+                <div class="footerTop">
+                    <img src="../image/footer.png" alt="컴퓨터회사이미지">
+                </div>
+                <div class="footerBottom">
+                    <div class="info">
+                        <span class="sub_title">Company Information</span>
+                        <ul>
+                            <li>
+                                <span>경기도 성남시 분당구 돌마로 46 KR 5층 성남 그린 컴퓨터 아카데미</span>
+                            </li>
+                            <li>
+                                <span>대표 : 최원석</span><br>
+                                <span>개인정보보호 담당자 : 이학로</span>
+                            </li>
+                            <li>
+                                <span>상담 및 AS : 1234-1234</span><br>
+                                <span>FAX : 031-1234-1234</span><br>
+                                <span>이메일 : thefixer@gmail.com</span>
+                            </li>
+                            <li>
+                                <span>사업자번호 : 123-1234</span>
+                                <span>통신판매신고 : 1234-성남그린-12345</span><br>
+                                <span>분쟁조정기관표시 : 소비자보호원</span><br>
+                                <span>호스팅제공자 : (주)THE FIXER</span>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer_two">
+                        <div class="footerline">
+                            <!-- <div class="footernotice">공지사항</div> -->
+                            <ul class="footerinfo">
+                                <li>
+                                    <a href="#">회사소개</a>
+                                </li>
+                                <li>
+                                    <a href="#">이용약관</a>
+                                </li>
+                                <li>
+                                    <a href="#">개인정보취급방침</a>
+                                </li>
+                                <li>
+                                    <a href="#">고객만족센터</a>
+                                </li>
+                                <li>
+                                    <a href="#">제휴문의</a>
+                                </li>
+                                <li>
+                                    <a href="#">맞춤결제</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_img">
+                            <a href="https://www.facebook.com/"><img class="footer_icon" src="../image/facebook_icon.png"
+                                    alt="Facebook 아이콘"></a>
+                            <a href="https://www.instagram.com/"><img class="footer_icon" src="../image/instagram_icon.png"
+                                    alt="instagram 아이콘"></a>
+                            <a href="https://blog.naver.com/greenseongnam"><img class="footer_icon3"
+                                    src="../image/naver_blog_icon.png" alt="네이버 블로그 아이콘"></a>
+                            <a href="https://twitter.com/"><img class="footer_icon4" src="../image/twitter_icon.png"
+                                    alt="twitter 아이콘"></a>
+                            <a href="https://www.youtube.com/"><img class="footer_icon" src="../image/youtube_icon.png"
+                                    alt="Youtube 아이콘"></a>
+                        </div>
+                        <div>
+                            <img class="footer_logo" src="../image/logo_BK_com.png" alt="THE FIXER 로고">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
